@@ -1,4 +1,0 @@
-<?php
-require __DIR__ . '/../config/auth.php';
-session_destroy();
-header('Location: /admin/login.php');
